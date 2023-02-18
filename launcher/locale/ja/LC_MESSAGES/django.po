@@ -1,0 +1,56 @@
+#: apps.py:7
+msgid "launcher"
+msgstr "ランチャー"
+
+#: fields.py:14
+msgid "International Phone number"
+msgstr "国際電話番号"
+
+#: fields.py:17 validators.py:12
+#, python-format
+msgid ""
+"\"%(value)s\" value has an invalid format. It must be in full international "
+"format includes a plus sign (+) followed by the country code, city code, and "
+"local phone number."
+msgstr ""
+"\"%(value)s\" は正しい国際電話番号フォーマットではありません。国際電話番号はプラス (+) "
+"記号から始まり、国番号、（先頭の 0 を除いた）市外局番に電話番号が続く必要があります。"
+
+#: models.py:38
+msgid "uuid"
+msgstr "プライマリキー (UUID)"
+
+#: models.py:40
+msgid "created datetime"
+msgstr "作成日時"
+
+#: models.py:46
+msgid "updated datetime"
+msgstr "更新日時"
+
+#: models.py:51
+msgid "deleted datetime"
+msgstr "削除日時"
+
+#: services.py:11
+msgid "Bad request."
+msgstr "不正なリクエストです。"
+
+#: services.py:17
+msgid "Authentication credentials were not provided."
+msgstr "認証情報が提供されませんでした。"
+
+#: services.py:23
+msgid "You do not have permission to perform this action."
+msgstr "対象の操作を行う権限がありません。"
+
+#: services.py:29
+msgid "Not found."
+msgstr "見つかりませんでした。"
+
+#: services.py:51
+msgid ""
+"If you have not initialized a model class, you will not be able to access "
+"the `get_model` method of the Service class."
+msgstr ""
+"モデルクラスとともに初期化しなかった場合、サービスクラスの get_model メソッドにはアクセスできません。"

@@ -1,0 +1,25 @@
+# .gitignore
+
+# general
+.*
+*~
+*.egg-info
+*.log
+*.mo
+*.pyc
+__pycache__/
+!.editorconfig
+!.github
+!.gitignore
+!.flake8
+
+# poetry
+poetry.lock
+
+# mkdocs
+site
+
+# sample
+static
+media
+db.sqlite3
