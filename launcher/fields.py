@@ -3,7 +3,7 @@ from django.core.exceptions import ValidationError
 from django.db.models import CharField
 from django.utils.translation import gettext_lazy as _
 
-from .forms import PhoneNumberField
+from .forms import PhoneNumberField as PhoneNumberFormField
 from .validators import PhoneNumberValidator
 
 __all__ = ['PhoneNumberField']
@@ -58,7 +58,7 @@ class PhoneNumberField(CharField):
     def formfield(self, **kwargs):
         return super().formfield(
             **{
-                'form_class': PhoneNumberField,
+                'form_class': PhoneNumberFormField,
                 **kwargs,
             }
         )

@@ -3,7 +3,6 @@ from django.forms.widgets import Input
 
 from .validators import PhoneNumberValidator
 
-
 __all__ = ['PhoneNumberInput', 'PhoneNumberField']
 
 

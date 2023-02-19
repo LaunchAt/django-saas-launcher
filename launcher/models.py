@@ -20,18 +20,8 @@ class BaseModelQuerySet(QuerySet):
         return self.filter(deleted_at__isnull=True)
 
 
-class BaseModelManager(
-    BaseManager.from_queryset(BaseModelQuerySet),  # type: ignore
-    BaseManager,
-):
-    def soft_delete(self):
-        return super().soft_delete()
-
-    def restore(self):
-        return super().restore()
-
-    def active_set(self):
-        return super().active_set()
+class BaseModelManager(BaseManager.from_queryset(BaseModelQuerySet)):  # type: ignore
+    pass
 
 
 class BaseModel(models.Model):

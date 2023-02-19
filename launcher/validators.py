@@ -35,3 +35,6 @@ class PhoneNumberValidator:
             and self.message == other.message
             and self.code == other.code
         )
+
+
+validate_phone_number = PhoneNumberValidator()
