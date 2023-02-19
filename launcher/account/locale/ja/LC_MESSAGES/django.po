@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-18 12:06+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: account/apps.py:7
+msgid "account"
+msgstr ""
+
+#: account/models/account.py:31 account/models/code.py:25
+#: account/models/token.py:19
+msgid "user"
+msgstr ""
+
+#: account/models/account.py:34
+msgid "username"
+msgstr ""
+
+#: account/models/account.py:40 account/models/code.py:54
+msgid "email address"
+msgstr ""
+
+#: account/models/account.py:42
+msgid "frozen date-time"
+msgstr ""
+
+#: account/models/account.py:47
+msgid "verification status"
+msgstr ""
+
+#: account/models/account.py:48
+msgid "password"
+msgstr ""
+
+#: account/models/account.py:50 account/models/code.py:80
+msgid "phone number"
+msgstr ""
+
+#: account/models/account.py:80
+msgid "user account"
+msgstr ""
+
+#: account/models/account.py:81
+msgid "user accounts"
+msgstr ""
+
+#: account/models/code.py:18
+msgid "code"
+msgstr ""
+
+#: account/models/code.py:19 account/models/token.py:18
+msgid "expiry date-time"
+msgstr ""
+
+#: account/models/code.py:20
+msgid "uuid"
+msgstr ""
+
+#: account/models/code.py:37
+msgid "verification code"
+msgstr ""
+
+#: account/models/code.py:38
+msgid "verification codes"
+msgstr ""
+
+#: account/models/code.py:59
+msgid "email change code"
+msgstr ""
+
+#: account/models/code.py:60
+msgid "email change codes"
+msgstr ""
+
+#: account/models/code.py:71
+msgid "password reset code"
+msgstr ""
+
+#: account/models/code.py:72
+msgid "password reset codes"
+msgstr ""
+
+#: account/models/code.py:85
+msgid "phone number code"
+msgstr ""
+
+#: account/models/code.py:86
+msgid "phone number codes"
+msgstr ""
+
+#: account/models/code.py:97
+msgid "signup code"
+msgstr ""
+
+#: account/models/code.py:98
+msgid "signup codes"
+msgstr ""
+
+#: account/models/token.py:17
+msgid "token digest"
+msgstr ""
+
+#: account/models/token.py:44 account/models/token.py:63
+msgid "refresh token"
+msgstr ""
+
+#: account/models/token.py:50
+msgid "access token"
+msgstr ""
+
+#: account/models/token.py:51
+msgid "access tokens"
+msgstr ""
+
+#: account/models/token.py:64
+msgid "refresh tokens"
+msgstr ""
